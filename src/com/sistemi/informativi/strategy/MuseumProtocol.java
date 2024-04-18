@@ -1,0 +1,9 @@
+package com.sistemi.informativi.strategy;
+
+public class MuseumProtocol implements Strategy{
+    @Override
+    public String getProtocol() {
+
+        return "mu " + Math.random();
+    }
+}
